@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Network State Listener</string>
+    <string name="nsl_no_internet">Internet Not Connected</string>
+    <string name="nsl_connecting">Connecting&#8230;</string>
+
+    <color name="nsl_bg">#FFAB40</color>
+    <color name="nsl_text">#FFFFFF</color>
+    <dimen name="nsl_padding">8dp</dimen>
+</resources>
