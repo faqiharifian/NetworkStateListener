@@ -1,5 +1,10 @@
 # NetworkStateListener
+
+![Network State Listener Sample](https://raw.githubusercontent.com/faqiharifian/NetworkStateListener/master/assets/demo.gif)
+
 # Usage
+For a working implementation of this project see the `sample/` folder.
+
 1. Include the following dependency in your `build.gradle` file.
 
 ```groovy
@@ -56,10 +61,15 @@ if you use NoActionBar theme, please add one more `ViewGroup` inside `ViewGroup`
 </android.support.constraint.ConstraintLayout>
 ```
 
-4. This library start listening when your app is running, but when you run your app and not connected to network it won't display any notification. Instead, you need to add the following line inside each `onCreate` of your activities
+4. This library start listening when your app is running, but when you run your app and not connected to network it won't display any notification. Instead, you need to add the following line inside each `onResume` of your activities
 
 ```java
-NetworkUtil.init(this);
+@Override
+protected void onResume() {
+    super.onResume();
+
+    NetworkUtil.init(this);
+}
 ```
 # Customization
 Default:

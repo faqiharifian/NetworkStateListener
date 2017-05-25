@@ -30,6 +30,13 @@ public class WithoutNoActionBarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_without_no_action_bar);
 
+        getSupportActionBar().setSubtitle(R.string.activity_without_no_action_bar_label);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
         NetworkUtil.init(this);
     }
 

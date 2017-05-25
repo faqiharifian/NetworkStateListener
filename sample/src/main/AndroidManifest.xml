@@ -13,7 +13,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".WithNoActionBarActivity"
-            android:label="@string/activity_with_no_action_bar_label"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WithoutNoActionBarActivity"
-            android:label="@string/activity_with_no_action_bar_label">
+        <activity android:name=".WithoutNoActionBarActivity">
 
         </activity>
     </application>
