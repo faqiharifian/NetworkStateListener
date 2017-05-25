@@ -7,9 +7,9 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Training-/android/NetworkStateListener" />
-            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Training-/android/NetworkStateListener/app" />
-            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Training-/android/NetworkStateListener/lib" />
+            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener" />
+            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/app" />
+            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/lib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

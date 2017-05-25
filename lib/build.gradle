@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -28,4 +29,13 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+}
+publish {
+    groupId = 'com.github.faqiharifian'
+    artifactId = 'lib'
+    publishVersion = '0.1.1'
+    desc = 'Library that monitor network state and display notification when internet is unavailable'
+    licences = ['Apache-2.0']
+    uploadName='NetworkStateListener'
+    website = 'https://github.com/faqiharifian/NetworkStateListener.git'
 }
