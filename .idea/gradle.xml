@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener" />
-            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/app" />
             <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/lib" />
+            <option value="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/sample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

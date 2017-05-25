@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Network State Listener</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_with_no_action_bar_label">With NoActionBar</string>
+    <string name="activity_without_no_action_bar_label">Without NoActionBar</string>
+</resources>

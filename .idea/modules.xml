@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file:///mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/NetworkStateListener.iml" filepath="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/NetworkStateListener.iml" />
-      <module fileurl="file:///mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/app/app.iml" filepath="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/app/app.iml" />
       <module fileurl="file:///mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/lib/lib.iml" filepath="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/lib/lib.iml" />
+      <module fileurl="file:///mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/sample/sample.iml" filepath="/mnt/64BD66E36A6D3A3E/PROJECT/-Library-/NetworkStateListener/sample/sample.iml" />
     </modules>
   </component>
 </project>
